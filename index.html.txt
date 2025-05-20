@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manas Chaudhari | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Manas Chaudhari's Portfolio</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#goals">Future Goals</a>
+      <a href="#personal">Personal Side</a>
+    </nav>
+  </header>
+
+  <section id="welcome">
+    <h2>Hello!</h2>
+    <p>Welcome to my personal portfolio website. I'm glad you're here!</p>
+    <img src="profile.jpg" alt="Manas Chaudhari" style="width: 200px; height: auto; border-radius: 10px;">
+    <video width="320" height="240" controls>
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <ul>
+      <li><strong>Name:</strong> Manas Chaudhari</li>
+      <li><strong>Location:</strong> Virar</li>
+      <li><strong>Education:</strong> Currently pursuing BE</li>
+      <li><strong>Languages Known:</strong> Marathi, English, Hindi</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed industry certification course in .NET and SQL</li>
+    </ul>
+  </section>
+
+  <section id="goals">
+    <h2>Future Goals</h2>
+    <p>I aim to complete my engineering successfully and build useful websites that serve a purpose.</p>
+  </section>
+
+  <section id="personal">
+    <h2>Personal Side</h2>
+    <ul>
+      <li><strong>Hobbies:</strong> Gaming</li>
+      <li><strong>Role Model:</strong> Nana Patekar – I admire his honesty, social work, and bold personality.</li>
+      <li><strong>Favorite Book:</strong> Meluha</li>
+      <li><strong>Favorite Startup:</strong> Uber – for transforming urban transportation</li>
+      <li><strong>Volunteering Experience:</strong> None yet</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Manas Chaudhari | All rights reserved.</p>
+  </footer>
+</body>
+</html>
